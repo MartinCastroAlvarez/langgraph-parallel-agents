@@ -1,0 +1,195 @@
+{
+  "latency": 0.25,
+  "repeats": 3,
+  "rows": [
+    {
+      "pattern": "research desk",
+      "branches": 2,
+      "mode": "sequential",
+      "max_concurrency": 1,
+      "seconds": 1.52,
+      "model_calls": 6,
+      "peak_in_flight": 1
+    },
+    {
+      "pattern": "research desk",
+      "branches": 2,
+      "mode": "bounded (4)",
+      "max_concurrency": 4,
+      "seconds": 1.011,
+      "model_calls": 6,
+      "peak_in_flight": 2
+    },
+    {
+      "pattern": "research desk",
+      "branches": 2,
+      "mode": "parallel",
+      "max_concurrency": null,
+      "seconds": 1.013,
+      "model_calls": 6,
+      "peak_in_flight": 2
+    },
+    {
+      "pattern": "research desk",
+      "branches": 4,
+      "mode": "sequential",
+      "max_concurrency": 1,
+      "seconds": 2.531,
+      "model_calls": 10,
+      "peak_in_flight": 1
+    },
+    {
+      "pattern": "research desk",
+      "branches": 4,
+      "mode": "bounded (4)",
+      "max_concurrency": 4,
+      "seconds": 1.017,
+      "model_calls": 10,
+      "peak_in_flight": 4
+    },
+    {
+      "pattern": "research desk",
+      "branches": 4,
+      "mode": "parallel",
+      "max_concurrency": null,
+      "seconds": 1.017,
+      "model_calls": 10,
+      "peak_in_flight": 4
+    },
+    {
+      "pattern": "research desk",
+      "branches": 8,
+      "mode": "sequential",
+      "max_concurrency": 1,
+      "seconds": 4.561,
+      "model_calls": 18,
+      "peak_in_flight": 1
+    },
+    {
+      "pattern": "research desk",
+      "branches": 8,
+      "mode": "bounded (4)",
+      "max_concurrency": 4,
+      "seconds": 1.565,
+      "model_calls": 18,
+      "peak_in_flight": 4
+    },
+    {
+      "pattern": "research desk",
+      "branches": 8,
+      "mode": "parallel",
+      "max_concurrency": null,
+      "seconds": 1.063,
+      "model_calls": 18,
+      "peak_in_flight": 8
+    },
+    {
+      "pattern": "research desk",
+      "branches": 16,
+      "mode": "sequential",
+      "max_concurrency": 1,
+      "seconds": 8.725,
+      "model_calls": 34,
+      "peak_in_flight": 1
+    },
+    {
+      "pattern": "research desk",
+      "branches": 16,
+      "mode": "bounded (4)",
+      "max_concurrency": 4,
+      "seconds": 2.571,
+      "model_calls": 34,
+      "peak_in_flight": 4
+    },
+    {
+      "pattern": "research desk",
+      "branches": 16,
+      "mode": "parallel",
+      "max_concurrency": null,
+      "seconds": 1.069,
+      "model_calls": 34,
+      "peak_in_flight": 16
+    },
+    {
+      "pattern": "sectioning",
+      "branches": 3,
+      "mode": "sequential",
+      "max_concurrency": 1,
+      "seconds": 0.763,
+      "model_calls": 3,
+      "peak_in_flight": 1
+    },
+    {
+      "pattern": "sectioning",
+      "branches": 3,
+      "mode": "bounded (4)",
+      "max_concurrency": 4,
+      "seconds": 0.255,
+      "model_calls": 3,
+      "peak_in_flight": 3
+    },
+    {
+      "pattern": "sectioning",
+      "branches": 3,
+      "mode": "parallel",
+      "max_concurrency": null,
+      "seconds": 0.26,
+      "model_calls": 3,
+      "peak_in_flight": 3
+    },
+    {
+      "pattern": "voting",
+      "branches": 5,
+      "mode": "sequential",
+      "max_concurrency": 1,
+      "seconds": 1.288,
+      "model_calls": 5,
+      "peak_in_flight": 1
+    },
+    {
+      "pattern": "voting",
+      "branches": 5,
+      "mode": "bounded (4)",
+      "max_concurrency": 4,
+      "seconds": 0.518,
+      "model_calls": 5,
+      "peak_in_flight": 4
+    },
+    {
+      "pattern": "voting",
+      "branches": 5,
+      "mode": "parallel",
+      "max_concurrency": null,
+      "seconds": 0.266,
+      "model_calls": 5,
+      "peak_in_flight": 5
+    },
+    {
+      "pattern": "voting",
+      "branches": 15,
+      "mode": "sequential",
+      "max_concurrency": 1,
+      "seconds": 3.819,
+      "model_calls": 15,
+      "peak_in_flight": 1
+    },
+    {
+      "pattern": "voting",
+      "branches": 15,
+      "mode": "bounded (4)",
+      "max_concurrency": 4,
+      "seconds": 1.021,
+      "model_calls": 15,
+      "peak_in_flight": 4
+    },
+    {
+      "pattern": "voting",
+      "branches": 15,
+      "mode": "parallel",
+      "max_concurrency": null,
+      "seconds": 0.273,
+      "model_calls": 15,
+      "peak_in_flight": 15
+    }
+  ]
+}
